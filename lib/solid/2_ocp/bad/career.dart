@@ -1,0 +1,1 @@
+enum Career { doctor, engineer, soccerPlayer }
