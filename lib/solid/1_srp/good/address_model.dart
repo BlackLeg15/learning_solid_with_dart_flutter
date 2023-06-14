@@ -2,7 +2,7 @@ class AddressModel {
   final String number;
   final String street;
   
-  AddressModel({
+  const AddressModel({
     required this.number,
     required this.street,
   });

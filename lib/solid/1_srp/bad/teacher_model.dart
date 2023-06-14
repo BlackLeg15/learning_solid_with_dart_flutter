@@ -5,7 +5,7 @@ class TeacherModel {
   final String department;
   final AddressModel address;
 
-  TeacherModel({
+  const TeacherModel({
     required this.name,
     required this.department,
     required this.address,
