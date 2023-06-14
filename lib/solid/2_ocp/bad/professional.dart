@@ -12,17 +12,11 @@ class Professional {
   });
 
   void work(Career career) {
-    switch (career) {
-      case Career.doctor:
-        debugPrint('Healing someone');
-        break;
-      case Career.engineer:
-        debugPrint('Developing a solution');
-        break;
-      case Career.soccerPlayer:
-        debugPrint('Dribling someone');
-        break;
-      default:
-    }
+    final result = switch (career) {
+      Career.doctor => 'Healing someone',
+      Career.engineer => 'Developing a solution',
+      Career.soccerPlayer => 'Dribling someone',
+    };
+    debugPrint(result);
   }
 }
