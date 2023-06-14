@@ -1,3 +1,5 @@
+import 'package:flutter/foundation.dart';
+
 import 'career.dart';
 
 class Professional {
@@ -12,13 +14,13 @@ class Professional {
   void work(Career career) {
     switch (career) {
       case Career.doctor:
-        print('Healing someone');
+        debugPrint('Healing someone');
         break;
       case Career.engineer:
-        print('Developing a solution');
+        debugPrint('Developing a solution');
         break;
       case Career.soccerPlayer:
-        print('Dribling someone');
+        debugPrint('Dribling someone');
         break;
       default:
     }

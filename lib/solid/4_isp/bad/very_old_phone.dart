@@ -1,9 +1,11 @@
+import 'package:flutter/foundation.dart';
+
 import 'mobile_device.dart';
 
 class VeryOldPhone implements MobileDevice {
   @override
   call() {
-    print('Calling');
+    debugPrint('Calling');
   }
 
   @override
