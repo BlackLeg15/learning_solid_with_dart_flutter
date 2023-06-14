@@ -1,7 +1,7 @@
 abstract class CellPhone {
-  takePhoto();
-  openGPS();
-  call();
-  sendSMS();
-  connectBluetooth();
+  void takePhoto();
+  void openGPS();
+  void call();
+  void sendSMS();
+  void connectBluetooth();
 }

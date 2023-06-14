@@ -1,5 +1,5 @@
 class HttpClientException {
   final String message;
 
-  HttpClientException(this.message);
+  const HttpClientException(this.message);
 }

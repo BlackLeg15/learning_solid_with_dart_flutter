@@ -1,12 +1,9 @@
 import 'package:uno/uno.dart';
 
 class HttpClient {
-  late final Uno _unoClient;
-  Uno get unoClient => _unoClient;
+  final Uno _unoClient;
 
-  HttpClient({String baseUrl = ''}) {
-    _unoClient = Uno(baseURL: baseUrl);
-  }
+  const HttpClient(this._unoClient);
 
   Future<Response> get(String path) async {
     try {

@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'professional.dart';
 
 class Doctor extends Professional {
-  Doctor({required String name}) : super(name: name);
+  const Doctor({required super.name});
   
   @override
   void work() {

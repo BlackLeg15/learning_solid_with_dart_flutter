@@ -2,7 +2,7 @@ import '../career.dart';
 import '../professional.dart';
 
 void main() {
-  final professional = Professional(name: 'Adby', career: Career.engineer);
+  const professional = Professional(name: 'Adby', career: Career.engineer);
   professional.work(professional.career);
 
   final doctorsList = List.generate(10, (index) => Professional(name: 'Adby $index', career: Career.doctor));

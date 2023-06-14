@@ -2,12 +2,9 @@ import 'rectangle.dart';
 
 class Square extends Rectangle {
   Square({
-    required int height,
-    required int width,
-  }) : super(
-          height: height,
-          width: width,
-        );
+    required super.height,
+    required super.width,
+  });
 
   @override
   void setHeight(int height) {

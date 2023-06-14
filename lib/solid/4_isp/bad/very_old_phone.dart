@@ -4,22 +4,22 @@ import 'mobile_device.dart';
 
 class VeryOldPhone implements MobileDevice {
   @override
-  call() {
+  void call() {
     debugPrint('Calling');
   }
 
   @override
-  openGPS() {
+  void openGPS() {
     throw UnimplementedError();
   }
 
   @override
-  takePhoto() {
+  void takePhoto() {
     throw UnimplementedError();
   }
 
   @override
-  turnOnBluetooth() {
+  void turnOnBluetooth() {
     throw UnimplementedError();
   }
 }

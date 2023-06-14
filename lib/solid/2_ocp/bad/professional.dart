@@ -6,7 +6,7 @@ class Professional {
   final String name;
   final Career career;
 
-  Professional({
+  const Professional({
     required this.name,
     required this.career,
   });

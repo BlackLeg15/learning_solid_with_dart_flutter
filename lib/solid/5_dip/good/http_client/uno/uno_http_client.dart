@@ -5,11 +5,9 @@ import '../base/http_client_exception.dart';
 import '../base/http_client_response.dart';
 
 class DioHttpClient implements HttpClient {
-  late final Uno _unoClient;
+  final Uno _unoClient;
 
-  DioHttpClient({String baseUrl = ''}) {
-    _unoClient = Uno(baseURL: baseUrl);
-  }
+  const DioHttpClient(this._unoClient);
 
   @override
   Future<HttpClientResponse> get(String path) async {
@@ -19,7 +17,7 @@ class DioHttpClient implements HttpClient {
       response = HttpClientResponse(result.data, result.status);
       return response;
     } on UnoError catch (e) {
-      throw (HttpClientException(e.message));
+      throw HttpClientException(e.message);
     }
   }
 }
