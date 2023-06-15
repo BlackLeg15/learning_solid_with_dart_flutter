@@ -14,4 +14,6 @@ class Rectangle {
   void setWidth(int width) {
     this.width = width;
   }
+
+  int get area => height * width;
 }
