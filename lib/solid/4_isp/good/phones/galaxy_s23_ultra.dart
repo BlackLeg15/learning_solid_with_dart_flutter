@@ -15,4 +15,7 @@ class GalaxyS23Ultra implements HighEndPhone {
 
   @override
   void takePhoto() {}
+
+  @override
+  void enableVoiceAssistant() {}
 }

@@ -15,4 +15,7 @@ class SiemensA52 implements MobileDevice {
 
   @override
   void takePhoto() {}
+
+  @override
+  void enableVoiceAssistant() {}
 }

@@ -1,6 +1,6 @@
 import '../mobile_device.dart';
 
-class GalaxyS23Ultra implements MobileDevice {
+class Iphone14ProMax implements MobileDevice {
   @override
   void call() {}
 

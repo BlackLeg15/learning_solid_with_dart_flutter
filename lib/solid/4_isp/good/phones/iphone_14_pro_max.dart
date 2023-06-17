@@ -1,11 +1,8 @@
-import '../mobile_device.dart';
+import '../phone_categories/high_end_phone.dart';
 
-class GalaxyS23Ultra implements MobileDevice {
+class Iphone14ProMax implements HighEndPhone {
   @override
   void call() {}
-
-  @override
-  void connectBluetooth() {}
 
   @override
   void openGPS() {}
@@ -18,4 +15,7 @@ class GalaxyS23Ultra implements MobileDevice {
 
   @override
   void enableVoiceAssistant() {}
+
+  @override
+  void connectBluetooth() {}
 }

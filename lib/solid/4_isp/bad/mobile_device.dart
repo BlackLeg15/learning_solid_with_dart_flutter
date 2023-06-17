@@ -4,4 +4,5 @@ abstract class MobileDevice {
   void openGPS();
   void sendSms();
   void takePhoto();
+  void enableVoiceAssistant();
 }
