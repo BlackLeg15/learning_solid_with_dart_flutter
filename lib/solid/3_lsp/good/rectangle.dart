@@ -1,6 +1,6 @@
-import 'area.dart';
+import 'geometric_shape.dart';
 
-class Rectangle implements Area {
+class Rectangle implements GeometricShape {
   double height;
   double width;
 
