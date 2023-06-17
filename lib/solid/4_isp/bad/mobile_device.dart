@@ -1,7 +1,7 @@
 abstract class MobileDevice {
-  void takePhoto();
-  void openGPS();
   void call();
-  void turnOnBluetooth();
+  void connectBluetooth();
+  void openGPS();
+  void sendSms();
+  void takePhoto();
 }
-
