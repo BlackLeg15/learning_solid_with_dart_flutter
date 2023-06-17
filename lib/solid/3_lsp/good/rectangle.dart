@@ -1,4 +1,6 @@
-class Rectangle {
+import 'area.dart';
+
+class Rectangle implements Area {
   double height;
   double width;
 
@@ -15,5 +17,6 @@ class Rectangle {
     this.width = width;
   }
 
+  @override
   double get area => height * width;
 }
