@@ -4,10 +4,10 @@ import '../base/http_client.dart';
 import '../base/http_client_exception.dart';
 import '../base/http_client_response.dart';
 
-class DioHttpClient implements HttpClient {
+class UnoHttpClient implements HttpClient {
   final Uno _unoClient;
 
-  const DioHttpClient(this._unoClient);
+  const UnoHttpClient(this._unoClient);
 
   @override
   Future<HttpClientResponse> get(String path) async {
